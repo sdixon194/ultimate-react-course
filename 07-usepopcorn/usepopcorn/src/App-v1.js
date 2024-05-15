@@ -211,8 +211,6 @@ function WatchedSummary({ watched }) {
 export default function App() {
   const [movies, setMovies] = useState(tempMovieData);
   const [watched, setWatched] = useState(tempWatchedData);
-
-  fetch(`http://www.omdbapi.com/?apikey=[yourkey]&`);
   return (
     <>
       <NavBar>
