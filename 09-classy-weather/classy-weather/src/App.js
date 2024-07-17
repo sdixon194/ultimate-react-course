@@ -17,7 +17,6 @@ function getWeatherIcon(wmoCode) {
   if (!arr) return "NOT FOUND";
   return icons.get(arr);
 }
-
 function convertToFlag(countryCode) {
   const codePoints = countryCode
     .toUpperCase()

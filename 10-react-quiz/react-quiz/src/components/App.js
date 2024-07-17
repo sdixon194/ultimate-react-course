@@ -23,6 +23,8 @@ const initialState = {
   secondsRemaining: null,
 };
 
+const x = 23;
+
 function reducer(state, action) {
   switch (action.type) {
     case "dataReceived":
