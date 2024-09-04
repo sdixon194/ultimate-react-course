@@ -1,0 +1,13 @@
+.cityList {
+	width: 100%;
+	list-style: none;
+	overflow-x: hidden;
+
+	display: flex;
+	flex-direction: column;
+	gap: 1.4rem;
+}
+
+.cityList::-webkit-scrollbar {
+	width: 0;
+}
